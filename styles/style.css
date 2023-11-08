@@ -1,4 +1,75 @@
 /* место для вашего кода */
+
+/******* Общие Положение элементов на странице*****/
 body {
-    padding: 20px;
+    max-width: 1440px;
+    margin: auto;
+    width: 100%;
+}
+
+.content_section {
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+
+/*********header********/
+
+.header__content {
+    max-width: 1340px;
+    height: 109px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*******Ссылки*********/
+.header__links-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    border: 1px solid black;
+
+}
+
+.header__links-list-item {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style: circle;
+}
+
+.header__links-list-item_no-bullit{
+    list-style: none;
+}
+
+/***************Картинка***********/
+.header__logo {
+    width: 130px;
+    height: 104px;
+    border: 1px solid black;
+    padding: 3px 12px 7px 11px;
+}
+
+.header__logo-image {
+    display: block; 
+}
+
+/*****************Адрес********************/
+
+.adress {
+    display: flex;
+    flex-direction: column;
+}
+
+address {
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.3px; /* 135% */
 }
