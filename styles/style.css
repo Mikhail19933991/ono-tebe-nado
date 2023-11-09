@@ -3,8 +3,8 @@
 /******* Общие Положение элементов на странице*****/
 body {
     max-width: 1440px;
-    margin: auto;
-    width: 100%;
+    margin: 0 auto;
+    /*width: 100%;*/
 }
 
 .content_section {
@@ -48,10 +48,11 @@ body {
 
 /***************Картинка***********/
 .header__logo {
-    width: 130px;
-    height: 104px;
+    width: 154px;
+    height: 110px;
     border: 1px solid black;
     padding: 3px 12px 7px 11px;
+    margin: 0 150px 0 0;
 }
 
 .header__logo-image {
@@ -73,3 +74,13 @@ address {
     font-weight: 400;
     line-height: 24.3px; /* 135% */
 }
+
+.header__link {
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.3px; /* 135% */
+}
+    
